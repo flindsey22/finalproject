@@ -1,0 +1,125 @@
+/* CSS Document for final project */
+
+body{
+	background-color: #68AD9D;
+	background-attachment: fixed;
+	font-family:cascadia code, helvetica;
+	background-image: url('images/pixels.jpg'); background-size: cover; 
+	background-attachment: fixed;"
+}
+
+.pagebox{
+width: 60%;
+margin: auto;
+background-color: #CCEBE3;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+h1{
+font-size: 50px;
+font-family:cascadia code, helvetica;
+text-align: center;
+
+}
+
+h3{
+	padding: 10px;
+}
+
+img{
+	padding: 10px;
+}
+
+homepic{
+	display:inline-block;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333333;
+}
+
+li{
+float: left;
+font-size: 17px;
+}
+
+li a{
+display:block;
+color: #B47EB3;
+text-align: center;
+padding: 14px;
+text-decoration-style: wavy;
+font-family:helvetica, arial;
+font-weight: bold;
+}
+
+li a:hover:not(.active){
+background-color: #111111;
+}
+
+p {
+	width: 80%; float: right;margin-right: 30px; margin-bottom: 15px;
+}
+
+div2{
+	width: 70%;
+	margin: auto;
+	float: right;
+}
+
+pic{
+	float: left;
+}
+
+table{
+	border-collapse: collapse;
+	width: 60%;
+	margin: auto;
+	font-family:cascadia code
+}
+
+td, th{
+	border: 7px outset #B47EB3;
+	padding: 10px;
+}
+
+tr:nth-child(odd){
+	background-color: #CCEBE3;
+}
+
+tr:nth-child(even){
+	background-color: #F2F2F2;
+}
+
+caption{
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 3px;
+}
+
+footer{
+	text-align: center;
+	font-style: italic; font-size: 14px;
+	margin-top: auto;
+	padding: 20px 0;
+	background-color: #6393D6
+}
+
+@media only screen and (max-width: 834px){
+h1{font-size: 42px;}
+
+@media only screen and (max-width: 568px){
+.pagebox{width: 90%;}
+.pic{
+	width:40%
+}
+.homepic{
+	width:90%
+}
+audio{width:100%}}
